@@ -1,0 +1,86 @@
+LABORATORIO - PATRONES DE DISEÑO
+Resultados de ejecución
+
+=== 01_builder.py ===
+Coffee(size=grande, milk=almendra, sugar=2, extras=['canela'])
+Coffee(size=pequeño, milk=None, sugar=0, extras=[])
+Estado: OK
+
+=== 02_prototype.py ===
+[Promo de la semana] Café + croissant (20% off)
+[Lunes de energía] Café + croissant (20% off)
+[Promo de la semana] Café + croissant (30% off)
+Estado: OK
+
+=== 03_singleton.py ===
+postgres://prod
+postgres://prod
+True
+Estado: OK
+
+=== 04_factory_method.py ===
+Preparando una barra de chocolate Wonka
+Preparando un Fizzy Lifting Drink (bebida burbujeante)
+Preparando un Everlasting Gobstopper (caramelo eterno)
+Estado: OK
+
+=== 05_adapter.py ===
+Pago legacy procesado por 2550 centavos
+Estado: OK
+
+=== 06_decorator.py ===
+[Email] Servidor caído
+[SMS] Servidor caído
+[Slack] Servidor caído
+Estado: OK
+
+=== 07_facade.py ===
+Proyector encendido
+Volumen en 7
+Reproduciendo 'Interstellar'
+Reproducción detenida
+Sonido apagado
+Proyector apagado
+Estado: OK
+
+=== 08_composite.py ===
+17
+Estado: OK
+
+=== 09_strategy.py ===
+135.0
+105.0
+Estado: OK
+
+=== 10_observer.py ===
+
+DevTalks publicó: Patrones de Diseño en Python
+  -> Email a ana@x.com: nuevo video 'Patrones de Diseño en Python'
+  -> Push a @carlos: 'Patrones de Diseño en Python'
+Estado: OK
+
+=== 11_command.py ===
+Luz: ON
+Luz: OFF
+Luz: ON
+Luz: OFF
+Estado: OK
+
+=== 12_template_method.py ===
+=== Ventas Q4 ===
+Crecimos 12%
+-- Generado por C. Sierra --
+
+<h1>Ventas Q4</h1>
+<p>Crecimos 12%</p>
+<footer>C. Sierra</footer>
+Estado: OK
+
+=== 13_state.py ===
+Acción no permitida en este estado
+Pago recibido
+Pedido enviado
+Pedido entregado
+Estado: OK
+
+Resumen: 13/13 ejemplos ejecutados correctamente.
